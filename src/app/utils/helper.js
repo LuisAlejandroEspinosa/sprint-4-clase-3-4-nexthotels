@@ -1,4 +1,4 @@
-export const hotelRooms = (rooms) =>{
+export const hotelSize = (rooms) =>{
     if (rooms <=10){
         return 'small'
     }else if (rooms<=30 ){
