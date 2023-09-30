@@ -1,0 +1,27 @@
+.containerMenu {
+    position: fixed;
+    background-color: #e26811;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+
+}
+
+.contentOptionMenu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.7rem;
+    color: #f8f7f6;
+}
+.labelMenu {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+.labelMenu:hover{
+    color:black;
+    cursor: pointer
+}

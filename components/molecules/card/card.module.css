@@ -2,6 +2,7 @@
 .containerInfo {
     background: white;
     box-shadow: rgba(48, 48, 48, 0.1) 0px 0.25rem 0.5rem;
+    height: 300px;
 }
 
 .titleHotel {
@@ -24,7 +25,8 @@ color: rgb(8, 8, 8);
 
 }
 .containerButton{
-    background-color: white;
+    background-color: #fff;
+    
 }
 
 .buttonCardHotel {
@@ -33,7 +35,7 @@ color: rgb(8, 8, 8);
     color: #ffffff;
     background-color: #e26811;
     width: 120px;
-
+    margin-top: 60px;
 }
 
 .buttonCardHotel:hover {
