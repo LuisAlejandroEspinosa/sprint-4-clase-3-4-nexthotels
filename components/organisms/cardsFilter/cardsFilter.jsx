@@ -2,9 +2,12 @@
 import { Header } from "../../molecules/header/header";
 import { CardHotel } from "../../molecules/card/card";
 import styles from './cardsFilter.module.css';
-import { useEffect, useState } from "react";
-import { hotelRooms, hotelSize } from "@/app/utils/helper";
+import { useContext, useEffect, useState } from "react";
+import {  hotelSize } from "@/app/utils/helper";
 import { Alert, AlertTitle, Snackbar } from "@mui/material";
+import { AppContext } from "@/app/store/currentProvider";
+
+
 
 
 export const CardsFilter = ({ getDataHotels }) => {
@@ -15,6 +18,8 @@ export const CardsFilter = ({ getDataHotels }) => {
     const [selectedSizes, setSelectedSizes] = useState('all');
     const [filterHotels, setFilterHotels] = useState([]);
     const [setshowSnackbar, setShowSnackbar] = useState(false);
+    const {setHomePage} = useContext(AppContext)
+    
     // const [hotelsData, setHotelsData] = useState([])
 
     // const fetchHotels = async () => {
