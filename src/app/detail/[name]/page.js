@@ -1,7 +1,5 @@
 "use client"
-import { Description } from "@mui/icons-material";
 import React, { useContext, useEffect, useState } from "react";
-import { hotelData } from "../../../../services/getHotelsServices";
 import { MainButton } from "../../../../components/atoms/button/Button";
 import styles from './page.module.css'
 import { AppContext } from "@/app/store/currentProvider";
